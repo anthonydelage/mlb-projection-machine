@@ -1,0 +1,5 @@
+pandas >= 0.25.3
+numpy >= 1.17.4
+selenium >= 3.141.0
+PyYaml >= 5.2
+chromedriver-binary >= 79.0

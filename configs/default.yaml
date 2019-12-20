@@ -1,0 +1,58 @@
+systems:
+  - name: steamer
+    use: true
+  - name: steamer600
+    use: false
+  - name: zips
+    use: false
+  - name: thebat
+    use: false
+  - name: atc
+    use: false
+  - name: fangraphsdc
+    use: true
+settings:
+  teams: 15
+  budget: 260
+  roster:
+    hitters:
+      C: 2
+      1B: 1
+      2B: 1
+      3B: 1
+      SS: 1
+      OF: 5
+      UT: 1
+      IF: 0
+      MI: 1
+      CI: 1
+      RF: 0
+      CF: 0
+      LF: 0
+    pitchers:
+      SP: 0
+      RP: 0
+      P: 9
+  categories:
+    hitting:
+      - key: AVG
+        type: positive-ratio
+      - key: R
+        type: positive-count
+      - key: RBI
+        type: positive-count
+      - key: HR
+        type: positive-count
+      - key: SB
+        type: positive-count
+    pitching:
+      - key: W
+        type: positive-count
+      - key: K
+        type: positive-count
+      - key: SV
+        type: positive-count
+      - key: WHIP
+        type: negative-ratio
+      - key: ERA
+        type: negative-ratio
